@@ -1,0 +1,153 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "ee7775cb-d50a-4618-9f69-71f0a78f443d": {
+        "id": "ee7775cb-d50a-4618-9f69-71f0a78f443d",
+        "parent": null,
+        "name": "k2gcpnode14.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "k2gcpnode14.js",
+        "cursor": {
+          "lineNumber": 22,
+          "column": 24
+        },
+        "config": {
+          "runtime": "nodejs14",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "triggerType": 0,
+          "name": "k2gcpnode14"
+        },
+        "triggers": [
+          {
+            "resourceName": "http-trigger",
+            "config": {}
+          }
+        ],
+        "lastUpdated": 1625218993761,
+        "testCases": {
+          "32f3f960-db5a-4742-a304-fd6437c0af09": {
+            "id": "32f3f960-db5a-4742-a304-fd6437c0af09",
+            "name": "Test event",
+            "functionId": "ee7775cb-d50a-4618-9f69-71f0a78f443d",
+            "event": "{\"key1\": \"value1\", \"key2\": \"value2\", \"key3\": \"value3\"}",
+            "eventTemplate": "hello-world"
+          }
+        }
+      },
+      "59180f70-f926-4fc1-aa10-210151456fd7": {
+        "id": "59180f70-f926-4fc1-aa10-210151456fd7",
+        "parent": null,
+        "name": "index.js",
+        "type": "JS_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": false,
+        "filePath": "index.js"
+      },
+      "2a9fd8a1-4820-43f9-9d93-95dcf016c5fe": {
+        "id": "2a9fd8a1-4820-43f9-9d93-95dcf016c5fe",
+        "parent": null,
+        "name": "main.py",
+        "type": "PYTHON_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": false,
+        "filePath": "main.py"
+      },
+      "ba5b0cd8-c4bf-4218-a0f5-1b0512b7cd0c": {
+        "id": "ba5b0cd8-c4bf-4218-a0f5-1b0512b7cd0c",
+        "parent": null,
+        "name": "package.json",
+        "type": "JSON_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "package.json"
+      },
+      "cc812cb2-ebad-45f8-bf49-0e2bb411d15f": {
+        "id": "cc812cb2-ebad-45f8-bf49-0e2bb411d15f",
+        "parent": null,
+        "name": "Authorizer.js",
+        "type": "JS_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "Authorizer.js"
+      }
+    },
+    "openFiles": [
+      "ee7775cb-d50a-4618-9f69-71f0a78f443d"
+    ],
+    "currentFileId": "ee7775cb-d50a-4618-9f69-71f0a78f443d",
+    "resources": {
+      "http-trigger": {
+        "name": "http-trigger",
+        "type": "http-trigger",
+        "config": {}
+      },
+      "pubsubcloudBuilds": {
+        "name": "pubsubcloudBuilds",
+        "type": "CloudPubSub",
+        "config": {
+          "mode": 1,
+          "topic": {
+            "name": "cloud-builds",
+            "subscriptions": []
+          }
+        }
+      }
+    },
+    "customTemplate": {
+      "syntax": "JSON",
+      "overrideDefault": false,
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "AWS_DEFAULT_REGION",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {
+        "googleapis": {
+          "name": "googleapis",
+          "language": "nodejs",
+          "version": "29.0.0",
+          "dev": false,
+          "notRemovable": false
+        }
+      }
+    }
+  },
+  "PROJECT_META": {
+    "sigmaVersion": "1.8.2",
+    "projectName": "k2gcpnode14",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east1",
+    "platform": "GCP",
+    "language": "nodejs",
+    "platformRegions": {
+      "AWS": "us-east-1"
+    },
+    "lastSave": 1625219307359
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "k2gcpnode14",
+      "url": "https://github.com/Kumudikatest/k2gcpnode14"
+    }
+  }
+}
